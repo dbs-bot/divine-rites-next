@@ -52,6 +52,12 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Hindu culture themed colors
+				saffron: 'hsl(var(--saffron))',
+				'sacred-red': 'hsl(var(--sacred-red))',
+				golden: 'hsl(var(--golden))',
+				'sacred-white': 'hsl(var(--sacred-white))',
+				'warm-cream': 'hsl(var(--warm-cream))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
