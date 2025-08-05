@@ -72,6 +72,14 @@ const Navigation = () => {
               >
                 Services
               </Link>
+              <Link
+                to="/blog"
+                className={`font-medium transition-colors ${
+                  isActive("/blog") ? "text-primary" : "text-foreground hover:text-primary"
+                }`}
+              >
+                Blog
+              </Link>
               <Button variant="default" className="bg-gradient-to-r from-saffron to-sacred-red hover:opacity-90">
                 <Phone className="h-4 w-4 mr-2" />
                 Talk To Expert
